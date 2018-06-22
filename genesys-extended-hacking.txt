@@ -9,14 +9,16 @@ TABLE OF CONTENTS:
 1. Encounter mechanics
    1.1. Scope of the encounter (opposed vs unopposed, digital-only or mixed)
    1.2. General encounter flow (maneuvers and actions)
-   1.3. Mixing hacking into combat encounters
-2. Hacking skills (unified vs split)
-3. System examples
-   3.1. Security programs
-   3.2. Subsystems
-4. Character options
-   4.1. Talents
-   4.2. Equipment
+2. Integration (hackers and non-hackers)
+   2.1. Skills handling (split vs unified)
+   2.2. Physical vs remote presence
+   2.3. Mixing digital and physical combat
+4. System examples
+   4.1. Security programs
+   4.2. Subsystems
+5. Character options
+   5.1. Talents
+   5.2. Equipment
 
 1. ENCOUNTER MECHANICS
 ----------------------
@@ -33,3 +35,34 @@ This chapter discusses how to handle the hacking in a way that's entertaining no
 
 1.1. SCOPE OF THE ENCOUNTER
 ---------------------------
+
+One of the first question to ask when giving the players a hacking opportunity is "do I want this as a whole encounter or a skill check?".
+Both of the approaches have their application and seeing both in use is not only allowed, but recommended. Consider the following points:
+
+SKILL CHECKS
+
+Skill check hacking is compact, as the entire character action can be resolved with a single dice roll. It also doesn't require preparing a network for the hacker to break into, which can save a lot of time if the hacker character enjoys their "hacks of opportunity". Consider using skill checks:
+
+ - When the scope of the action is narrow; the hacker is only set on doing one small thing, and nothing else
+   (use them when the hacker wants to make the ATM spit out cash, open one set of electronic doors, decrypt a disc with sensitive information, etc.)
+ - When the scope is wider, but the action involves doing the same/similar thing repeatedly and thus could potentially devolve into rolling for the same thing over and over; there is little in terms of narrative benefit to repeating the same activity
+   (use them when digging through databases looking for information, when tracking targets on security cameras, when deploying security software across multiple machines)
+ - When majority of the party cannot participate in the encounter; even if the complexity of the hacking task would make for a good encounter, one has to avoid the situation where one or two players do everything while the rest of the party sits around twiddling their thumbs
+
+[ consider giving the player checks only if difficulty increases ]
+
+4. SYSTEM EXAMPLES
+------------------
+
+4.1. SECURITY PROGRAMS
+----------------------
+
+:: Watchdog ::
+
+Core system component intended to reinforce the existing security measures by maintaining other services.
+Deeply rooted, it monitors itself and other security services, restarting them if anything goes wrong.
+Program Strength: 5
+Effects: While active, it reactives one deactivated security program *eligible for activation* every turn, starting with the one that's been offline for longest. If two or more security programs become eligible for activation in the same turn, only one is reactivated. If a character attempts to override this program and fails, one additional security program may be reactivated.
+
+This security measure can be used if the GM wants to keep the hacker character on their toes, but does not want to involve active opposition (sysop);
+it will ensure that that security systems are only taken down temporarily, and thus the hacker should rush (or attempt to attack the watchdog itself, which is not supposed to be an easy feat, hence the high Program Strength).
