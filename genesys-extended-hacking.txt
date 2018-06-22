@@ -1,0 +1,19 @@
+EXTENDED HACKING
+================
+
+This document aims to expand upon mechanics suggested by "Hacking Rules" entry in GCRB (page 232), clear any doubts regarding the mechanics of creating and managing networks in hacking encounters, as well as expand upon handling of exclusively hacking-related encounters vs mixing the hacking and regular encounters.
+Additionally, it provides example system designs, security programs and subsytems for the hacker/sysop to make use of.
+
+TABLE OF CONTENTS:
+
+1. Hacking skills (unified vs split)
+2. Encounter mechanics
+   2.1. General encounter flow (maneuvers and actions)
+   2.2. Scope of the encounter (opposed vs unopposed, digital-only or mixed)
+   2.3. Mixing hacking into combat encounters
+3. System examples
+   3.1. Security programs
+   3.2. Subsystems
+4. Character options
+   4.1. Talents
+   4.2. Equipment
