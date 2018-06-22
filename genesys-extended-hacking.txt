@@ -6,14 +6,30 @@ Additionally, it provides example system designs, security programs and subsytem
 
 TABLE OF CONTENTS:
 
-1. Hacking skills (unified vs split)
-2. Encounter mechanics
-   2.1. General encounter flow (maneuvers and actions)
-   2.2. Scope of the encounter (opposed vs unopposed, digital-only or mixed)
-   2.3. Mixing hacking into combat encounters
+1. Encounter mechanics
+   1.1. Scope of the encounter (opposed vs unopposed, digital-only or mixed)
+   1.2. General encounter flow (maneuvers and actions)
+   1.3. Mixing hacking into combat encounters
+2. Hacking skills (unified vs split)
 3. System examples
    3.1. Security programs
    3.2. Subsystems
 4. Character options
    4.1. Talents
    4.2. Equipment
+
+1. ENCOUNTER MECHANICS
+----------------------
+
+Genesys is aimed at providing good narrative experience, and geared to put focus on exciting moments - the "rule of cool" applies through most of the gameplay one experiences in any Genesys setting. "Would you put it in a film/book" is another good rule of thumb to keep in mind when deciding what needs prolonged focus, and what can be reduced to short description or a single roll.
+
+Consider how hacking is portrayed in media. In 1995's "Hackers", a cult classic in today's IT circles, focus is primarily on interaction between various characters, and the actual hacking reduced to short clips. Only towards the end of the film, which culminates in the entire hacker crew making the "big hit" on corporate servers, and battling the sinister Sysop, do we see hacking as an extended character action[1]; and unlike throughout the rest of the film, this hacking operation does not run unopposed - we see the back-and-forth of viruses, worms, sentries, and firewalls.
+"Swordfish" is another example of hacker film which focuses primarily on dynamic action - hacking does not come into portrayal for any extended period of time. When the protagonist undergoes the test of his hacking abilities, we do not see the detailed process, methods used, prolonged trial-and-error that characterises hacking in real life - instead he's forced to get into FBI database in a minute with a gun to his head.
+
+Realistic hacking is not exciting for most of the audience - and hacking in a role-playing game faces the same problems.
+This chapter discusses how to handle the hacking in a way that's entertaining not only to the person playing the hacker, but also to the rest of the party; and how to use it in a way that meshes well with other aspects of gameplay.
+
+[1] As cheesy as it is, with ridiculous animations and at least one character wearing VR goggles.
+
+1.1. SCOPE OF THE ENCOUNTER
+---------------------------
