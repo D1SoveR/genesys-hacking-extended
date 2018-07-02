@@ -51,6 +51,62 @@ Skill check hacking is compact, as the entire character action can be resolved w
 
 [ consider giving the player checks only if difficulty increases ]
 
+ENCOUNTERS
+
+The process of hacking can be expanded into its own part of the encounter, providing tension, and giving the hacker an opportunity to participate in more complex structured encounters, either on their own, or helping the party in real space (by mixing the hacking encounter parts into a party-wide encounter).
+It involves mapping out the system into which the player is breaking, as the player's interaction with it becomes complex - rather than achieving the goal in a single roll, the player needs to gain access, scan the system for its capabilities, then proceed to gain access to them by breaking various security programs.
+
+The hacker can move around the system akin to how the party of players moves around a physical location; gain access to subsystems and potentially assist the party (opening the doors, silencing alarms, shutting out security forces, or even fight with autonomous military equipment); or attempt to retrieve something from the system by disabling security software and scanning for information, while an opposing sysop is attempting to lock them out.
+
+Consider using hacking encounters:
+
+- When the scope of the action is wide; the hacker breaks in to perform a lot of different hacking actions within the same system
+  (use them when the hacker assists the party in infiltrating secure facility, attempts to track getaway car while cutting off chase with traffic lights, or other similarly involved actions)
+- When it is narratively important that the process of breaking into the system is long and complex, such as when under time pressure
+  (use them when the hacker is breaking into secure database while on-site and the rest of the party keeps security at bay)
+- When hacking allows the player to provide ongoing support, especially when the hacker is separate from the party - telepresence
+  (use when the hacker uses law enforcement GPS beacons to give the players exact location of their pursuit, or similar situations)
+- When there is active opposition; in form of the enemy sysop, counterhacker, or people trying to physically stop the hacker
+
+Notice that most of these examples involve the hacker going through the hacking encounter while the rest of the players are also in an encounter.
+Avoid using full encounters if the rest of the party does not get take part in the encounter - if only the hacker gets to perform cool feats of skill, and the rest of the party sits around twiddling their thumbs, use a single skill check instead. If narratively the hack is supposed to take longer time, consider declaring that the character starts working, and only rolls once at the end.
+
+1.2. GENERAL ENCOUNTER FLOW
+---------------------------
+
+The hacking encounter is mostly carried out in a similar fashion to combat or social encounters, with each active character, be it the hacker, the opposing sysop, or advanced security software (the kind that can take active steps to kick the hacker out) taking their up to two manuevers and an action every turn.
+The primary meter of character's viability is, similarly to social encounter, Strain rather than Wounds - unless something goes desperately wrong, the character should not become physically harmed as result of hacking failures (that of course does not extend to indirect harm, such as failing to shut down security turret).
+Once the character reaches their strain threshold, they are kicked out of the system; narratively, the hacker makes a crucial mistake and gets booted, or the sysop has his credentials revoked; mechanically, they are not able to access the system again until the Strain is brought below threshold. Strain can be inflicted as result of hacking failure, or at expense of Advantage/Threat.
+
+SYSTEM MAPPING
+
+The system is generally speaking a collection of subsystems - the features or hardware controlled by the system - with at least some of those being protected by security programs.
+The subsystem represents a self-contained capability of the system. It can be things like communication systems, security cameras, door control, or a database containing information. Each of the subsystems should provide the user with either knowledge or some new ability when accessed, such as seeing camera feeds, tapping into police radio chatter, or obtaining personnel dosiers.
+Security program is an entity in the system that either protects a subsystem (meaning it has to be disabled before its corresponding subsystem can be accessed) or performs some sort of security action (like restarting security programs or actively tracing the hacker). Where subsystems can be thought of as rooms with equipment or loot in them, security programs are the trap-riddled doors leading to those rooms.
+It is entirely valid for some subsystems not to have extra security - it can be assumed that when the hacker gains access to the system, they receive at least rudimentary security access; things like building access log, or personnel files. Other subsystems can have security only on part of their capability - like security camera feed being easy to access for viewing, but requiring special privileges for disabling, or looping footage.
+
+When designing your system, consider what soft of fuctionality it should carry, and what sort of options should exist for the player to make use of.
+Bank security, for example, may have internal e-mail systems behind low-grade security, alarms and vault security being medium-grade, and actual accounts behind several layers of military-grade security. Dedicated police database could have personnel records with no security, case files in unsecure memory, witness protection details in secure region, and evidence locker inventories.
+The hacker should have the info of available subsystems from the moment they are in the system, but certain parts of it might not even be visible until some security software is disabled.
+
+ACTIONS VS MANUEVERS
+
+Most often, the two things the hacker can do in the system is Override Security Program and Enact Command.
+The former is the process of disabling security on selected secure subsystem, in order to gain access to some capability provided by the system. The latter is a manuever/action done in order to actually use the subsystem, doing whatever it is that its capability allows for - tracking the team through security cameras, opening locked doors, or broadcasting free jazz through PSA systems.
+Because the act of gaining access to the subsystem requires a skill check, and is thus an action, most of the subsystems should be usable with just a manuever - this is to limit the amount of dice rolls taken during the encounter, and speed up action.
+Taking an Enact Command *action*, as opposed to manuever, should really be considered when using the system is narratively difficult enough to warrant another check, or if the action mimics an actual action to be taken by another player.
+
+For example, scanning through camera feed to check if anyone's behind the corner is simple enough that it shouldn't require a skill check, we can do it as Enact Command *manuever*.
+Opening an electronically locked door would normally require Hacking skill check, but since the user has already performed a Hacking skill check to gain access to door controls in the first place, additional rolls would be redundant - we should do it as Enact Command *manuever*.
+Firing hacked security turret at an enemy is a direct attack, and should thus become Enact Command *action*, likely Gunnery skill check.
+
+DISABLING SECURITY
+
+Disabling security programs requires an extended or advanced display of skill, and is therefore an action. The same is not the case for the legitimate users of the system - enemy sysops can activate and deactivate security programs with just a manuever.
+Once the security has been disabled, it stays disabled until it has been reactivated, either by active opposing force, or by another security program.
+This can be used to tailor the difficulty of hacking encounters - on simple systems, or in situations where time spent hacking does not matter, security programs don't need to be reactivated; if the hacker can spend every other turn overriding security over and over again, there is very little benefit to have them roll for the same action repeatedly. When facing time constraints, though, having an agent in the system reactivating security can add additional element of tension and strategy to the encounter.
+Disabled systems cannot be reactivated until the end of hacker's next turn - in that period of time, even if the opposing agent has the free manuevers to reactivate security, it is not possible - Advantage can be spent to extend the amount of time the security cannot be reactivated, and Triumph can be spent to permanently disable that particular security program until the end of the encounter. Once the security has been reactivated, the hacker loses access to that subsystem until it has been hacked into again.
+
 4. SYSTEM EXAMPLES
 ------------------
 
@@ -64,5 +120,6 @@ Deeply rooted, it monitors itself and other security services, restarting them i
 Program Strength: 5
 Effects: While active, it reactives one deactivated security program *eligible for activation* every turn, starting with the one that's been offline for longest. If two or more security programs become eligible for activation in the same turn, only one is reactivated. If a character attempts to override this program and fails, one additional security program may be reactivated.
 
+GM notes:
 This security measure can be used if the GM wants to keep the hacker character on their toes, but does not want to involve active opposition (sysop);
 it will ensure that that security systems are only taken down temporarily, and thus the hacker should rush (or attempt to attack the watchdog itself, which is not supposed to be an easy feat, hence the high Program Strength).
