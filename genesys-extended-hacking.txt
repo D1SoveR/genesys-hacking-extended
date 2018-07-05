@@ -10,15 +10,14 @@ TABLE OF CONTENTS:
    1.1. Scope of the encounter (opposed vs unopposed, digital-only or mixed)
    1.2. General encounter flow (maneuvers and actions)
 2. Integration (hackers and non-hackers)
-   2.1. Skills handling (split vs unified)
+   2.1. Mixing digital and physical combat
    2.2. Physical vs remote presence
-   2.3. Mixing digital and physical combat
-4. System examples
-   4.1. Security programs
-   4.2. Subsystems
-5. Character options
-   5.1. Talents
-   5.2. Equipment
+3. Subsystem examples
+   3.1. Security programs
+   3.2. Subsystems
+4. Character options
+   4.1. Talents
+   4.2. Equipment
 
 1. ENCOUNTER MECHANICS
 ----------------------
@@ -75,19 +74,24 @@ Avoid using full encounters if the rest of the party does not get take part in t
 ---------------------------
 
 The hacking encounter is mostly carried out in a similar fashion to combat or social encounters, with each active character, be it the hacker, the opposing sysop, or advanced security software (the kind that can take active steps to kick the hacker out) taking their up to two manuevers and an action every turn.
-The primary meter of character's viability is, similarly to social encounter, Strain rather than Wounds - unless something goes desperately wrong, the character should not become physically harmed as result of hacking failures (that of course does not extend to indirect harm, such as failing to shut down security turret).
+The primary meter of character's viability is, similarly to social encounter, Strain rather than Wounds - unless something goes desperately wrong, the character should not become physically harmed as result of hacking failures (that of course does not extend to indirect harm, such as failing to shut down a security turret that then guns you down).
 Once the character reaches their strain threshold, they are kicked out of the system; narratively, the hacker makes a crucial mistake and gets booted, or the sysop has his credentials revoked; mechanically, they are not able to access the system again until the Strain is brought below threshold. Strain can be inflicted as result of hacking failure, or at expense of Advantage/Threat.
+
+Apart from those differences, the hacking encounters can play out in the exact same fahion as regular combat encounter:
+all the involved characters roll for Initiative, then proceed to alternatively spend their manuevers and actions to either crack the system or defend it. For hackers, their main action will be overriding security, and their main manuever Enact Command (still limited to one per turn), whereas for defending side it will be restarting security software and attempting to lock the hacker out.
+One aspect is worth mentioning, and that's awareness of the hack. By default, the defending side is not aware that the hack takes place, and until they do, the hacker acts alone against static system - it is only once the defender is made aware of the hack (through spending Threat or as a side effect of failing to override a security program) that they can act.
 
 SYSTEM MAPPING
 
 The system is generally speaking a collection of subsystems - the features or hardware controlled by the system - with at least some of those being protected by security programs.
 The subsystem represents a self-contained capability of the system. It can be things like communication systems, security cameras, door control, or a database containing information. Each of the subsystems should provide the user with either knowledge or some new ability when accessed, such as seeing camera feeds, tapping into police radio chatter, or obtaining personnel dosiers.
+
 Security program is an entity in the system that either protects a subsystem (meaning it has to be disabled before its corresponding subsystem can be accessed) or performs some sort of security action (like restarting security programs or actively tracing the hacker). Where subsystems can be thought of as rooms with equipment or loot in them, security programs are the trap-riddled doors leading to those rooms.
 It is entirely valid for some subsystems not to have extra security - it can be assumed that when the hacker gains access to the system, they receive at least rudimentary security access; things like building access log, or personnel files. Other subsystems can have security only on part of their capability - like security camera feed being easy to access for viewing, but requiring special privileges for disabling, or looping footage.
 
-When designing your system, consider what soft of fuctionality it should carry, and what sort of options should exist for the player to make use of.
+When designing your system, consider what sort of fuctionality it should carry, and what sort of options should exist for the player to make use of.
 Bank security, for example, may have internal e-mail systems behind low-grade security, alarms and vault security being medium-grade, and actual accounts behind several layers of military-grade security. Dedicated police database could have personnel records with no security, case files in unsecure memory, witness protection details in secure region, and evidence locker inventories.
-The hacker should have the info of available subsystems from the moment they are in the system, but certain parts of it might not even be visible until some security software is disabled.
+The hacker should have the info of available subsystems from the moment they are in the system, but certain parts of it might not even be visible until some security software is disabled. This might want to be taken into consideration when hacking is carried out in process of retrieving information.
 
 ACTIONS VS MANUEVERS
 
@@ -107,10 +111,36 @@ Once the security has been disabled, it stays disabled until it has been reactiv
 This can be used to tailor the difficulty of hacking encounters - on simple systems, or in situations where time spent hacking does not matter, security programs don't need to be reactivated; if the hacker can spend every other turn overriding security over and over again, there is very little benefit to have them roll for the same action repeatedly. When facing time constraints, though, having an agent in the system reactivating security can add additional element of tension and strategy to the encounter.
 Disabled systems cannot be reactivated until the end of hacker's next turn - in that period of time, even if the opposing agent has the free manuevers to reactivate security, it is not possible - Advantage can be spent to extend the amount of time the security cannot be reactivated, and Triumph can be spent to permanently disable that particular security program until the end of the encounter. Once the security has been reactivated, the hacker loses access to that subsystem until it has been hacked into again.
 
-4. SYSTEM EXAMPLES
-------------------
+3. INTEGRATION
+--------------
 
-4.1. SECURITY PROGRAMS
+Hacking makes for a really nice addition to sci-fi settings when handled properly, but it can occasionally be difficult to manage. The worlds of digital and physical rarely intermingle - and the hacking part of the gaming experience can isolate the hacker from non-hacker players, leading to boredom and lost momentum. One of the most common problems is how to include hacking in the session in such a way that does not leave other players twiddling their thumbs - it can be difficult both in the aspect of hackers having distinctly different set of abilities, and in the fact that they often operate remotely, literally separating them from the party.
+
+3.1. MIXING DIGITAL AND PHYSICAL COMBAT
+---------------------------------------
+
+This point warrants reiteration - avoid creating hacker-only encounters (unless majority of the party is also hackers and can thus participate).
+In terms of their position in the party, hackers are the support class - the mages of technological age, capable of providing buffs to their allies (hacking into security systems, coordinating communication, sometimes literally turning enemy materiel ally), hindering opponents (running comms interference, disabling alarms, locking people out or in), and obtaining information.
+
+As such, one of the best ways to utilise hacking mechanics along with the rest of the party is to have the hacker break into systems in order to assist the party carrying out an operation, and to use the subsystems available to assist the party on their turn.
+When hacking alongside any combat-related (or similarly structured) encounter, the easiest way is to consider the hacker (as well as any *active* hacking opposition, such as the sysop) as any other combatant: have them roll for initiative along with the rest of the party, and provide them with thier initiative slots. The hacking is performed as part of a regular combat in such event.
+
+EXAMPLE #1
+
+"Zero Cool" (our hacker) is assisting a group of mercenaries raiding a security checkpoint. There is a sniper in the watchtower, and apart from Zero, there's a countersniper in the group, one referred to as "Deadeye". Let's assume that the order of initiative is NPC, PC, PC.
+On the first turn, the enemy sniper moves behind the side of the watch nest (first manuever) and unslings their sniper rifle, preparing for a shot (trading the action for second manuever). Then Zero sets up his remote hacking equipment (manuever for inventory management) and breaks into checkpoint's security network (Access System action). Deadeye goes into cover as well (first manuever) and takes a snap shot at the tower (combat action), but unfortunately ony hits cover.
+On the second turn, the enemy sniper aims and attempts a shot, but misses as well. Then, Zero breaks the restrictions on feed circuits (Override Security Program action), gaining access to camera feed, and relays the feed from the watchtower directly to Deadeye's HUD, giving her the exact position of the niper behind cover, and providing her with Boost die (Enact Command manuever with results identical to Assist manuever). Deadeye adjusts for the wind and drop (Aim manuever) and shoots (with two Boost dice), neatly piercing the metal barrier and the enemy sniper's head.
+
+EXAMPLE #2
+
+Zero assists the prison extraction team remotely. As the team is pinned down by the security team, Zero needs to find a way of providing distraction so that his comrades can evacuate. He scans the system for location of any automated defence systems (Enact Command manuever) and finds the right nodes for stun gun turret right behind the security team. He manages to get manual firing access (Override Security Program action), but his brute force method causes some system-wide alerts, leading the sysop to investigate (three Threat spent to alert the admin).
+Next turn, he uses the manual control of the turrets to spray the security forces with rubber bullets (Enact Command *action*, since it requires a Gunnery skill check), giving the team a brief respite. Note that he cannot perform an Enact Command manuever following his action this turn, since he's already performed the hacking action, and Enact Command is limited to one per turn.
+Next turn, the sysop manages to reboot the turret system with, reactivating the security program. Zero cannot access it again until he disables the security again (Override Security Program action) and fires it next turn (Enact Command *action*). He instead elects to gain access to automated cell locks (action) and opens up the entire block (manuever), hoping the sudden riot will overwhelm the security mooks.
+
+3. SUBSYSTEM EXAMPLES
+---------------------
+
+3.1. SECURITY PROGRAMS
 ----------------------
 
 :: Watchdog ::
