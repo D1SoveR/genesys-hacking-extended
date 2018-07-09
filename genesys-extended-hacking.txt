@@ -70,6 +70,9 @@ Consider using hacking encounters:
 Notice that most of these examples involve the hacker going through the hacking encounter while the rest of the players are also in an encounter.
 Avoid using full encounters if the rest of the party does not get take part in the encounter - if only the hacker gets to perform cool feats of skill, and the rest of the party sits around twiddling their thumbs, use a single skill check instead. If narratively the hack is supposed to take longer time, consider declaring that the character starts working, and only rolls once at the end.
 
+Note:
+If you are running hacking-heavy campaign, possibly one with most of the player characters having some form of hacking expertise, make use of that and create complex hacking encounters - since the whole/majority of player party will be able to participate, you do not run into the risk of most players feeling left out, and it may provide an interesting change of pace from physical combat/social encounters.
+
 1.2. GENERAL ENCOUNTER FLOW
 ---------------------------
 
@@ -92,6 +95,14 @@ It is entirely valid for some subsystems not to have extra security - it can be 
 When designing your system, consider what sort of fuctionality it should carry, and what sort of options should exist for the player to make use of.
 Bank security, for example, may have internal e-mail systems behind low-grade security, alarms and vault security being medium-grade, and actual accounts behind several layers of military-grade security. Dedicated police database could have personnel records with no security, case files in unsecure memory, witness protection details in secure region, and evidence locker inventories.
 The hacker should have the info of available subsystems from the moment they are in the system, but certain parts of it might not even be visible until some security software is disabled. This might want to be taken into consideration when hacking is carried out in process of retrieving information.
+
+EXAMPLE
+
+Consider an internal network for a bank. Its main purpose would be to provide communication between employees, allow them to carry out banking operations, as well as maintain security on the premises.
+
+On personel side of things, the network would likely have employee and customer records, as well as entire emailing system. Mechanics-wise, there is not much benefit to splitting all these into separate subsystem, as narratively the purpose of all these is to allow hacker to mine for information. As such, the network will have single "customer & employee databases" subsystem - sifting through it to find information should be a maneuver for readily available information (such as employee schedules to determine who's in the office), and Knowledge/Hacking skill check for sifting for any specific tidbit of info. Protection-wise, as non-critical systme, it sits behind fairly simple Strength 2 Firewall.
+
+Account controls, due to their strict nature, would be protected more securely - something like Strength 3 Sentry. When accessed, it allows the user to carry out banking, such as transferring moneys between accounts or laundering profits. Interacting with it, and transferring money around, should be a maneuver, since the interface is designed primarily for use by non-IT people, and should thus be intuitive.
 
 ACTIONS VS MANEUVERS
 
