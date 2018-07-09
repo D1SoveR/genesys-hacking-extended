@@ -48,7 +48,7 @@ Skill check hacking is compact, as the entire character action can be resolved w
    (use them when digging through databases looking for information, when tracking targets on security cameras, when deploying security software across multiple machines)
  - When majority of the party cannot participate in the encounter; even if the complexity of the hacking task would make for a good encounter, one has to avoid the situation where one or two players do everything while the rest of the party sits around twiddling their thumbs
 
-[ consider giving the player checks only if difficulty increases ]
+If the act of hacking narratively takes a prolonged period of time (such as combing through public message boards for specific threads), it benefits from being resolved with a single roll, if there is no time constraint or pressure to complete the task quickly - in such case, the player/GM can declare that a character performs a hack, and only perform the roll once the action has completed, successfully or not.
 
 ENCOUNTERS
 
