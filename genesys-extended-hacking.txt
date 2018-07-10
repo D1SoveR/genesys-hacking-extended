@@ -132,20 +132,29 @@ EXAMPLE
 "Zero Cool" (our hacker) is attempting to steal some highly secure blueprints from corporate data archival facility. Locally, data is preserved on high-grade optical discs kept in highly controlled climate storage. In order to do that, Zero needs not only to access the system, but also scour the index for location of the backup, take control of disc retrieval mechanism (think mechanical arm loading vinyls in those old-school jukeboxes) to bring the disc out, and retain it in read for two turns (while the data is copying).
 
 On the first turn, Zero manages to gain access to the system, but using credentials of an old admin account to do so (Threat on Access System action) raises alarm - the sysop will login the next turn.
+[ Index: Firewall (active) | Retrieval drone: Sentry (active) | Drive hardware: -no security- ]
+
 On the second turn, Zero overrides the basic security around the index (Override Security action) and finds the location of relevant update in the data warehouse (Enact Command maneuver). Override Security roll has resulted in no advantage, so the firewall remains disabled until the end of next turn, but it's irrelevant, since Zero has already obtained the backup location. Sysop logs in and sees the activity, then immediately proceeds to finding out who the hacker is (Trace User action). He cannot reactivate the firewall yet.
+[ Index: Firewall (hacked, 1 turn left) | Retrieval drone: Sentry (active) | Drive hardware: -no security- ]
+
 On the third turn, Zero proceeds to break the Sentry locking out the retrieval drone control (Override Security action). He rolls an Advantage and elects to extend the time before Sentry can be reactivated by one additional turn, and proceeds to direct the drone to retrieve the disc and load it into drive hardware. Now that hacker's following turn has ended, the Firewall on the index can be reactivated - which is what the Sysop does first (Activate maneuver to turn the security program back on). Following that, another attempt to Trace User and find out who the hacker is.
+[ Index: Firewall (active) | Retrieval drone: Sentry (hacked, 2 turns left) | Drive hardware: -no security- ]
+
 On the fourth turn, Zero starts to download the data off the backup (Enact Command maneuver to operate the drive hardware). The sysop, seeing what happens, activates emergency security measures (Activate maneuver to deploy his software and immediately establish Firewall security on drive hardware subsystem). This interrupts the transmission, requiring Zero to bypass the Firewall before attempting download again.
+[ Index: Firewall (active) | Retrieval drone: Sentry (hacked, 1 turns left) | Drive hardware: Firewall (active) ]
+
 On the fifth turn, Zero manages to raze that new Firewall to the ground - Override Security action rolled with a Triumph that he elects to spend on permanently shutting down the security system. He then proceeds to restart the download, with Enact Command maneuver on the drive hardware.
 The sysop, seeing his effort to block the download fail, attempts a different route. Now that the security for retrieval drone can be restarted, he uses the Activate maneuver to restore the security software, then uses the drone to pluck the disc out of the drive (Enact Command maneuver on the drone), which screws up the transmission again.
+[ Index: Firewall (active) | Retrieval drone: Sentry (active) | Drive hardware: Firewall (hacked permanently) ]
 
 ...and so on. Hacking can be a high-tension back-and-forth encounter with interesting uses of available mechanics.
 
-3. INTEGRATION
+2. INTEGRATION
 --------------
 
 Hacking makes for a really nice addition to sci-fi settings when handled properly, but it can occasionally be difficult to manage. The worlds of digital and physical rarely intermingle - and the hacking part of the gaming experience can isolate the hacker from non-hacker players, leading to boredom and lost momentum. One of the most common problems is how to include hacking in the session in such a way that does not leave other players twiddling their thumbs - it can be difficult both in the aspect of hackers having distinctly different set of abilities, and in the fact that they often operate remotely, literally separating them from the party.
 
-3.1. MIXING DIGITAL AND PHYSICAL COMBAT
+2.1. MIXING DIGITAL AND PHYSICAL COMBAT
 ---------------------------------------
 
 This point warrants reiteration - avoid creating hacker-only encounters (unless majority of the party is also hackers and can thus participate).
