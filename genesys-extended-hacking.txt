@@ -85,6 +85,7 @@ all the involved characters roll for Initiative, then proceed to alternatively s
 One aspect is worth mentioning, and that's awareness of the hack. By default, the defending side is not aware that the hack takes place, and until they do, the hacker acts alone against static system - it is only once the defender is made aware of the hack (through spending Threat or as a side effect of failing to override a security program) that they can act.
 
 SYSTEM MAPPING
+--------------
 
 The system is generally speaking a collection of subsystems - the features or hardware controlled by the system - with at least some of those being protected by security programs.
 The subsystem represents a self-contained capability of the system. It can be things like communication systems, security cameras, door control, or a database containing information. Each of the subsystems should provide the user with either knowledge or some new ability when accessed, such as seeing camera feeds, tapping into police radio chatter, or obtaining personnel dosiers.
@@ -104,7 +105,10 @@ On personel side of things, the network would likely have employee and customer 
 
 Account controls, due to their strict nature, would be protected more securely - something like Strength 3 Sentry. When accessed, it allows the user to carry out banking, such as transferring moneys between accounts or laundering profits. Interacting with it, and transferring money around, should be a maneuver, since the interface is designed primarily for use by non-IT people, and should thus be intuitive.
 
+There are also subsystems pertaining to security of the building. The first layer of security is camera feeds, present behind moderate-strength Firewall. Those allow the user to see what's happening in the bank, as well as mess with the footage to hide presence of anyone in the building. Past that, there are vault door controls - only once the hacker overrides the security on camera feeds subsystem, do they learn of the vault door subsystem, as it is placed "behind" the feed security. Vault door controls have their own dedicated security program, likely something like a high-grade Gate, and only unlock the network-connected part of the mechanism; the rest still needs to be disabled by someone on-site.
+
 ACTIONS VS MANEUVERS
+--------------------
 
 Most often, the two things the hacker can do in the system is Override Security Program and Enact Command.
 The former is the process of disabling security on selected secure subsystem, in order to gain access to some capability provided by the system. The latter is a maneuver/action done in order to actually use the subsystem, doing whatever it is that its capability allows for - tracking the team through security cameras, opening locked doors, or broadcasting free jazz through PSA systems.
@@ -116,11 +120,25 @@ Opening an electronically locked door would normally require Hacking skill check
 Firing hacked security turret at an enemy is a direct attack, and should thus become Enact Command *action*, likely Gunnery skill check.
 
 DISABLING SECURITY
+------------------
 
 Disabling security programs requires an extended or advanced display of skill, and is therefore an action. The same is not the case for the legitimate users of the system - enemy sysops can activate and deactivate security programs with just a maneuver.
 Once the security has been disabled, it stays disabled until it has been reactivated, either by active opposing force, or by another security program.
 This can be used to tailor the difficulty of hacking encounters - on simple systems, or in situations where time spent hacking does not matter, security programs don't need to be reactivated; if the hacker can spend every other turn overriding security over and over again, there is very little benefit to have them roll for the same action repeatedly. When facing time constraints, though, having an agent in the system reactivating security can add additional element of tension and strategy to the encounter.
 Disabled systems cannot be reactivated until the end of hacker's next turn - in that period of time, even if the opposing agent has the free maneuvers to reactivate security, it is not possible - Advantage can be spent to extend the amount of time the security cannot be reactivated, and Triumph can be spent to permanently disable that particular security program until the end of the encounter. Once the security has been reactivated, the hacker loses access to that subsystem until it has been hacked into again.
+
+EXAMPLE
+
+"Zero Cool" (our hacker) is attempting to steal some highly secure blueprints from corporate data archival facility. Locally, data is preserved on high-grade optical discs kept in highly controlled climate storage. In order to do that, Zero needs not only to access the system, but also scour the index for location of the backup, take control of disc retrieval mechanism (think mechanical arm loading vinyls in those old-school jukeboxes) to bring the disc out, and retain it in read for two turns (while the data is copying).
+
+On the first turn, Zero manages to gain access to the system, but using credentials of an old admin account to do so (Threat on Access System action) raises alarm - the sysop will login the next turn.
+On the second turn, Zero overrides the basic security around the index (Override Security action) and finds the location of relevant update in the data warehouse (Enact Command maneuver). Override Security roll has resulted in no advantage, so the firewall remains disabled until the end of next turn, but it's irrelevant, since Zero has already obtained the backup location. Sysop logs in and sees the activity, then immediately proceeds to finding out who the hacker is (Trace User action). He cannot reactivate the firewall yet.
+On the third turn, Zero proceeds to break the Sentry locking out the retrieval drone control (Override Security action). He rolls an Advantage and elects to extend the time before Sentry can be reactivated by one additional turn, and proceeds to direct the drone to retrieve the disc and load it into drive hardware. Now that hacker's following turn has ended, the Firewall on the index can be reactivated - which is what the Sysop does first (Activate maneuver to turn the security program back on). Following that, another attempt to Trace User and find out who the hacker is.
+On the fourth turn, Zero starts to download the data off the backup (Enact Command maneuver to operate the drive hardware). The sysop, seeing what happens, activates emergency security measures (Activate maneuver to deploy his software and immediately establish Firewall security on drive hardware subsystem). This interrupts the transmission, requiring Zero to bypass the Firewall before attempting download again.
+On the fifth turn, Zero manages to raze that new Firewall to the ground - Override Security action rolled with a Triumph that he elects to spend on permanently shutting down the security system. He then proceeds to restart the download, with Enact Command maneuver on the drive hardware.
+The sysop, seeing his effort to block the download fail, attempts a different route. Now that the security for retrieval drone can be restarted, he uses the Activate maneuver to restore the security software, then uses the drone to pluck the disc out of the drive (Enact Command maneuver on the drone), which screws up the transmission again.
+
+...and so on. Hacking can be a high-tension back-and-forth encounter with interesting uses of available mechanics.
 
 3. INTEGRATION
 --------------
