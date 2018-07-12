@@ -26,7 +26,7 @@ Firewalls are effectively barriers in cyberspace that limit access to certain pa
 
 **Program Strength**: *
 
-**Effects**: If a character attempts to override this program and fails, they are unable to access the portion of the server the firewall protects (there are no further effects).
+**Effects**: If a character attempts to override this program and fails, they are unable to access the portion of the server the firewall protects. In some cases, the Sysop of the network is informed of a breach.
 
 ######Intrusion Detection Software
 
@@ -35,3 +35,11 @@ IDS don’t stop you from accessing restricted parts of a server. However, they 
 **Program Strength**: *
 
 **Effects**: If a character attempts to override this program and fails, the sysops or other system administrators are immediately notified of the intrusion. In addition, the sentry provides any sysops or system administrators who access the system during the encounter one successful trace against the hacker.
+
+######Random Permutation System Encryption
+
+This system prevents the user from accessing data on the system - anything the user tries to read here is complete gobbledegook unless this is defeated.
+
+**Program Strength**: * , *but should probably be a rank more difficult than the rest; encryption is difficult.*
+
+**Effects**: If a character attempts to override this program and fails, the system burns through one of * e-fuses. Once all e-fuses are blown, the system is rendered permanently unreadable by any attempt, and will require a hardware level repair to make operational again. *The number of e-fuses has been left out here intentionally. The number depends entirely on how much tension you want to build in your encounters. High difficulty and high retries are not interesting; try to match low and high numbers respectively.*
